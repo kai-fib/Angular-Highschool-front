@@ -1,0 +1,23 @@
+
+.Service{
+      background: rgb(240, 235, 235);
+      
+    }
+    .Service h2{
+        color: rgb(101, 75, 109);
+    }
+
+.Service .one{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    border-radius: 7px;
+    transition: transform 0.5s;
+}
+.Service .one:hover{
+    transform: translateY(-8%);
+}

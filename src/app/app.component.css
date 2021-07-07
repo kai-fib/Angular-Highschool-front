@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+   }
+.navbar{
+    background: black;
+    padding: 1rem 8rem;
+}
+.nav-link:hover{
+    background-color: rgb(255, 255, 255);
+    transform: translateY(-15%);
+    border-radius: 20px;
+}
+/*-- fr nav bar links customization --*/
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0 0.8rem;
+    transition: 0.5s;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover,
+#navbarSupportedContent > ul > li:nth-child(n) > a:active
+{
+    color: blueviolet;
+    
+}
+#navbarSupportedContent > button{
+    background: #00bf85;
+    font-weight: 600;
+    padding: 0.09rem 1.4rem;
+    border-radius: 30px;
+}
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+   
+}
+
+
+

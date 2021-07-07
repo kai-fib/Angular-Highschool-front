@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+   }
+   
+.banner-text{
+    text-align: center;
+    color: rgb(241, 220, 220);
+    padding-top: 180px;
+}
+.banner-text h1{
+    font-size: 130px;
+    font-style: italic;
+    font-family: 'Stint Ultra Condensed', cursive;
+
+}
+.banner-text p{
+    font-size: 20px;
+    padding-top: 10%;
+    color: rgb(255, 255, 255);
+}
+.banner-btn{
+    margin: 70px auto 0;
+}
+
+.banner-btn a{
+    width: 150px;
+    text-decoration: rgb(0, 0, 0);
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 0;
+    color: azure;
+    border: .5px solid #fff;
+    transition: color 0.5s;
+}
+.banner-btn a span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    background: rgb(255, 255, 255);
+    z-index: -1;
+    transition: 0.5s;
+}
+
+
+
+#banner{
+    background: url(https://images.unsplash.com/flagged/photo-1556793225-af6567c6d2c9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80);    
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+.why .text h6{
+    color: rgb(135, 2, 197);
+    font-weight: 700;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+}
+
+.why .text h2{
+    color: rgb(95, 18, 131);
+    font-weight: 600;
+    font-size: 2rem;
+    
+}
+.why .text p{
+    color: #f7f5f4;
+    font-weight: 500;
+    font-size: 1.1rem;
+ 
+}
+.why{
+    background: black;
+}
+
+.why .text a{
+
+    background: #00bf85;
+    font-weight: 600;
+    padding: 0.3rem 0.6rem;
+    border-radius: 30px;
+    color: #111;
+}
+.why .text a:hover{
+    transition: none;
+}
+ .why img{
+    transition: transform 0.5s;
+    border-radius: 20px;
+ }
+ .why img:hover{
+     transform: translateY(-20%);
+ }
+
+  .Service{
+      background: rgb(240, 235, 235);
+      
+    }
+    .Service h2{
+        color: rgb(101, 75, 109);
+    }
+
+.Service .one{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    border-radius: 7px;
+    transition: transform 0.5s;
+}
+.Service .one:hover{
+    transform: translateY(-8%);
+}
+
+
+/*---- Campus ----*/
+.campus{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+    
+
+}
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 3%;
+    display: flex;
+    padding-left: 10px;
+    
+}
+.campus-col img{
+    width: 100%;
+    display:block;
+    border-radius: 10px;
+}
+.layer{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    
+}
+.layer:hover{
+    background: rgba(226,0,0,0.7);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0%;
+    left: 50%;
+    position: absolute;
+    transform:translateX(-50%) ;
+    transition: 0.5s;
+    opacity: 0;
+    
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+/* ----- facilities ----- */
+.facilities{
+    margin: auto;
+    width: 80%;
+    padding: 90px;
+    text-align: center;
+}    
+
+
+.facilities-col{
+ text-align: left;
+ flex-basis: 31%;
+ position: relative; 
+ border-radius: 10px;
+ margin-bottom: 5%;
+ padding: 30px;
+}  
+
+.facilities-col img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+
+/* testimonial */
+.testimonial{
+    margin:auto ;
+    width: 80%;
+    padding-top: 100px;
+    text-align: center;
+}
+.testimonial-col{
+    flex-basis: 47%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    padding: 40px;
+    cursor: pointer;
+    display:inline-flex;
+    
+
+}
+.testimonial-col img{
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-left: 5px;
+}
+
+/*--- footer */
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    padding-top: 50px;
+
+}
+.icons .fa{
+    color: blueviolet;
+    margin: 0;
+    cursor:progress;
+    padding: 18px;
+}
+.fa-heart-o{
+
+    color: orangered;
+}
